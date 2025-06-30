@@ -1,0 +1,53 @@
+Time complexity
+---------------
+
+How much time an algorithm needs?
+How much space an algorithm needs?
+
+n -> No of pages
+n/2 -> Half of many pages
+    Note: It almost same if n gets bigger.
+
+log2n -> Mathematically, how represent the idea dividing something half and half and half.
+
+Note: In computer terms we can say
+        O(n) for n,
+        O(n) for n/2,
+        O(log n) for log2n.
+
+Common runtime:
+    O (Big O): Worst-case time complexity
+    O(n2)       eg:
+    O(n log n)  eg:
+    O(n)        eg: Linear search
+    O(log n)    eg: Binary Search
+    O(1)        eg:
+
+    Ω (Omega): Best-case time complexity
+    Ω(n2)       eg:
+    Ω(n log n)  eg:
+    Ω(n)        eg:
+    Ω(log n)    eg:
+    Ω(1)        eg: Linear Search and Binary Search -> On first step getting the result.
+
+    Θ (Theta): Average-case time complexity
+    Θ(n2)
+    Θ(n log n)
+    Θ(n)
+    Θ(log n)
+    Θ(1)
+
+    Note: Most of the case only get "best case time complexity" or "worst case time complexity". But some algorithm performs "average case time complexity".
+
+Data structures:
+Arrays, Linked Lists, Stacks, Queues, Binary Trees, Hash Tables, Heaps, Graphs, Tries,
+Union find
+
+Algorithm:
+Searching, Sorting, Two pointers, Sliding window, Recursion, Dynamic Programming,
+Greedy algorithm, Backtracking
+
+Algorithm Notes:
+    Binary search on an unsorted list, it will most likely produce the wrong result
+
+
