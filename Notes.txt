@@ -1,3 +1,11 @@
+Roadmap:
+    1: Complete CS50
+    2: https://www.youtube.com/watch?v=8hly31xKli0
+    3: https://visualgo.net/en/sorting
+
+    If i have time
+    4: https://www.manning.com/books/grokking-algorithms
+
 Time complexity
 ---------------
 
@@ -17,21 +25,21 @@ Note: In computer terms we can say
 
 Common runtime:
     O (Big O): Worst-case time complexity
-    O(n2)       eg:
+    O(n2)       eg: Selection sort
     O(n log n)  eg:
     O(n)        eg: Linear search
     O(log n)    eg: Binary Search
     O(1)        eg:
 
     Ω (Omega): Best-case time complexity
-    Ω(n2)       eg:
+    Ω(n2)       eg: Selection sort
     Ω(n log n)  eg:
     Ω(n)        eg:
     Ω(log n)    eg:
     Ω(1)        eg: Linear Search and Binary Search -> On first step getting the result.
 
     Θ (Theta): Average-case time complexity
-    Θ(n2)
+    Θ(n2)       eg: Selection sort
     Θ(n log n)
     Θ(n)
     Θ(log n)
@@ -47,7 +55,11 @@ Algorithm:
 Searching, Sorting, Two pointers, Sliding window, Recursion, Dynamic Programming,
 Greedy algorithm, Backtracking
 
+Atleast should know: Arrays, Strings, Linked Lists, Stacks, Queues, HashMaps, Trees, Recursion, Sorting, Searching.
+
 Algorithm Notes:
-    Binary search on an unsorted list, it will most likely produce the wrong result
+    - Array should be in sorted order (ascending or descending). Binary search wont work correctly on unsorted data.
+    - In best case and worst case and average case selection sort performs bad. It will be sort n times.
+
 
 

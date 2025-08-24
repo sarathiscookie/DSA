@@ -1,25 +1,15 @@
-user_data = [11, 22, 33, 44, 55, 66, 77, 88, 99, 100]
-user_id = 444
+user_data = [64, 34, 25, 12, 22, 11, 90, 5]
 
-def get_result(data, id):
-    left = 0
-    right = len(user_data) - 1
+for i in range(len(user_data)):
+    min_index = i
 
-    while left <= right:
-        mid = (left + right) // 2
+    for j in range(i+1, len(user_data)):
+        if user_data[j] < user_data[min_index]:
+            min_index = j
 
-        if data[mid] == id:
-            return data[mid]
-        elif data[mid] < id:
-            left = mid + 1
-        else:
-            right = mid - 1
+            print(min_index)
 
-    return False
 
-result = get_result(user_data, user_id)
-
-if result:
-    print(f"Found user index {result} from {user_data}")
-else:
-    print("Not found!")
+34 < 64
+25 < 34
+12 < 25
